@@ -1,0 +1,47 @@
+@font-face {
+  font-display: swap;
+  font-family: "Rowdies";
+  font-weight: 400;
+  src: url("../fonts/Rowdies/Rowdies-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-weight: 300;
+  src: url("../fonts/Roboto/Roboto-Light.ttf") format("ttf");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-weight: 400;
+  src: url("../fonts/Roboto/Roboto-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-weight: 700;
+  src: url("../fonts/Roboto/Roboto-Bold.ttf") format("ttf");
+}
+:root {
+  --color-primary-orange: #FF9F0E;
+  --color-primary-light: #FFFFFF;
+  --color-primary-dark: #181817;
+  --color-secondary-orang: #FCB62A;
+  --color-secondary-light: #FFFAF3;
+  --color-secondary-normal: #F1F3FF;
+  --color-secondary-grey: #839AA9;
+  --color-secondary-lavender-white: #F9F9FF;
+  --color-secondary-soft-lilac: #D9A6FF;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.header__logo {
+  width: 182px;
+  height: 43px;
+}
