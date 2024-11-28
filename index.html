@@ -6,22 +6,53 @@
     <title>Dog club</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <nav>
+        <a href="/">
+          <img src="./images/logo.svg" alt="Dog club logo" />
+        </a>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li><a href="#">Less talk</a></li>
+          <li><a href="#">Services category</a></li>
+          <li><a href="#">Happy customer</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </nav>
+      <svg>
+        <use href="./images/icons.svg#icon-basket"></use>
+      </svg>
+      <button type="button">Contact us</button>
     </header>
     <main>
-      <section>
+      <!--hero-section -->
+      <section class="hero-section">
         <h1>Taking care for your Smart Dog!</h1>
-        <p>Human–canine bonding is the relationship between dogs and humans</p>
+        <p>Human-canine bonding is the relationship between dogs and humans</p>
+        <button type="button">Explore More</button>
+        <img
+          srcset="
+            ./images/hero-section/black-dog.jpg    1x,
+            ./images/hero-section/black-dog@2x.jpg 2x
+          "
+          src="./images/hero-section/black-dog.jpg"
+          alt="Black dog"
+        />
       </section>
-      <section>
+      <!--adviсe-section -->
+      <section class="advice-section">
+        <img
+          srcset="
+            ./images/advice-section/shetland-sheepdog.jpg    1x,
+            ./images/advice-section/shetland-sheepdog@2x.jpg 2x
+          "
+          src="./images/advice-section/shetland-sheepdog.jpg"
+          alt="Shetland sheepdog"
+        />
+        <button type="button">
+          <svg>
+            <use href="./images/icons.svg#icon-next"></use>
+          </svg>
+        </button>
         <h2>Less talk and more walk</h2>
         <p>
           Sometimes our career, lifestyle, or routines can make it difficult to
@@ -29,32 +60,266 @@
           need. Which is why, it’s okay to use an extra hand in walking dogs so
           they are in perfect shape, mentally and physically.
         </p>
+        <button type="button">Explore more</button>
       </section>
-      <section>
+      <!--services-section -->
+      <section class="services-section">
         <h2>Services category</h2>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>
+            <article>
+              <svg>
+                <use href="./images/icons.svg#icon-grooming"></use>
+              </svg>
+              <h3>Grooming</h3>
+            </article>
+          </li>
+          <li>
+            <article>
+              <svg>
+                <use href="./images/icons.svg#icon-nutrition"></use>
+              </svg>
+              <h3>Nutrition</h3>
+            </article>
+          </li>
+          <li>
+            <article>
+              <svg>
+                <use href="./images/icons.svg#icon-training"></use>
+              </svg>
+              <h3>Training</h3>
+            </article>
+          </li>
+          <li>
+            <article>
+              <svg>
+                <use href="./images/icons.svg#icon-bathing"></use>
+              </svg>
+              <h3>Bathing</h3>
+            </article>
+          </li>
         </ul>
+        <a href="#">more services</a>
+        <svg>
+          <use href="./images/icons.svg#icon-more"></use>
+        </svg>
       </section>
-      <section>
+      <!--customer-section -->
+      <section class="customer-section">
         <h2>Happy customer</h2>
+        <button type="button">
+          <svg>
+            <use href="./images/icons.svg#icon-arrow"></use>
+          </svg>
+        </button>
+        <ul>
+          <li>
+            <img
+              srcset="
+                ./images/customer-section/man-with-dog.jpg    1x,
+                ./images/customer-section/man-with-dog@2x.jpg 2x
+              "
+              src="./images/customer-section/man-with-dog.jpg"
+              alt="An elderly man with a dog in his arms"
+            />
+            <h3>Christin & Tom</h3>
+            <p>Love the overall workout experience!</p>
+            <span>
+              <svg>
+                <use href="./images/icons.svg#icon-indicator"></use>
+              </svg>
+              <svg>
+                <use href="./images/icons.svg#icon-indicator"></use>
+              </svg>
+              <svg>
+                <use href="./images/icons.svg#icon-indicator"></use>
+              </svg>
+              <svg>
+                <use href="./images/icons.svg#icon-indicator"></use>
+              </svg>
+              <svg>
+                <use href="./images/icons.svg#icon-indicator"></use>
+              </svg>
+            </span>
+            <p>5/5</p>
+          </li>
+          <li>
+            <img
+              srcset="
+                ./images/customer-section/girl-with-dachshund-dog.jpg    1x,
+                ./images/customer-section/girl-with-dachshund-dog@2x.jpg 2x
+              "
+              src="./images/customer-section/man-with-dog.jpg"
+              alt="A girl with a dachshund dog in her arms"
+            />
+            <h3>Anna & Tobby</h3>
+            <p>Amazing Products & Delivery on time.</p>
+            <span>
+              <svg>
+                <use href="./images/icons.svg#icon-indicator"></use>
+              </svg>
+              <svg>
+                <use href="./images/icons.svg#icon-indicator"></use>
+              </svg>
+              <svg>
+                <use href="./images/icons.svg#icon-indicator"></use>
+              </svg>
+              <svg>
+                <use href="./images/icons.svg#icon-indicator"></use>
+              </svg>
+              <svg>
+                <use href="./images/icons.svg#icon-indicator"></use>
+              </svg>
+            </span>
+            <p>4/5</p>
+          </li>
+          <li>
+            <img
+              srcset="
+                ./images/customer-section/girl-with-dog.jpg    1x,
+                ./images/customer-section/girl-with-dog@2x.jpg 2x
+              "
+              src="./images/customer-section/girl-with-dog.jpg"
+              alt="A girl with a dog"
+            />
+            <h3>Sindy & Kitch</h3>
+            <p>Great job with the trainer!</p>
+            <span>
+              <svg>
+                <use href="./images/icons.svg#icon-indicator"></use>
+              </svg>
+              <svg>
+                <use href="./images/icons.svg#icon-indicator"></use>
+              </svg>
+              <svg>
+                <use href="./images/icons.svg#icon-indicator"></use>
+              </svg>
+              <svg>
+                <use href="./images/icons.svg#icon-indicator"></use>
+              </svg>
+              <svg>
+                <use href="./images/icons.svg#icon-indicator"></use>
+              </svg>
+            </span>
+            <p>5/5</p>
+          </li>
+        </ul>
+        <button type="button">
+          <svg>
+            <use href="./images/icons.svg#icon-arrow"></use>
+          </svg>
+        </button>
+        <div class="pagination">
+          <span class="pagination__button"></span>
+          <span class="pagination__button"></span>
+          <span class="pagination__button"></span>
+        </div>
       </section>
-      <section>
+      <!--contact-section -->
+      <section class="contact-section">
         <h2>Our experts will take care of your friend</h2>
+        <img
+          srcset="
+            ./images/contact-section/dog-with_leash.jpg    1x,
+            ./images/contact-section/dog-with_leash@2x.jpg 2x
+          "
+          src="./images/contact-section/dog-with_leash.jpg"
+          alt="Dog holding a leash"
+        />
+        <h2>Our experts will take care of your friend</h2>
+        <p>Fill out the form so we can contact you!</p>
+        <form name="contact-form" autocomplete="off">
+          <label for="name">
+            <svg>
+              <use href="./images/icons.svg#icon-form-name"></use>
+            </svg>
+            <p>Your name</p>
+          </label>
+          <input type="text" name="name" id="name" pattern="" required />
+          <label for="pet">
+            <svg>
+              <use href="./images/icons.svg#icon-form-pet"></use>
+            </svg>
+            <p>Pet name</p>
+          </label>
+          <input type="text" name="pet" id="pet" pattern="" required />
+          <label for="tel">
+            <svg>
+              <use href="./images/icons.svg#icon-form-tel"></use>
+            </svg>
+            <p>Your phone</p>
+          </label>
+          <input type="tel" name="tel" id="tel" pattern="" required />
+          <label for="email">
+            <svg>
+              <use href="./images/icons.svg#icon-form-email"></use>
+            </svg>
+            <p>Your email</p>
+          </label>
+          <input type="email" name="email" id="tel" pattern="" required />
+          <button type="submit">Contact us</button>
+          <label for="agree">
+            <input type="checkbox" id="agree" name="agree" />
+            I agree to the privacy policy
+          </label>
+        </form>
+        <img
+          srcset="
+            ./images/contact-section/dog-watching.jpg    1x,
+            ./images/contact-section/dog-watching@2x.jpg 2x
+          "
+          src="./images/contact-section/dog-watching.jpg"
+          alt="The dog is watching"
+        />
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <nav>
+        <a href="/">
+          <img src="./images/logo.svg" alt="Dog club logo" />
+        </a>
+        <div>
+          <a href="#">
+            <svg>
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+          <a href="#">
+            <svg>
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </div>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li><a href="#">Less talk</a></li>
+          <li><a href="#">Services category</a></li>
+          <li><a href="#">Happy customer</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </nav>
+      <form name="footer-form" autocomplete="off">
+        <label for="tel">
+          <svg>
+            <use href="./images/icons.svg#icon-form-tel"></use>
+          </svg>
+          <p>Your phone</p>
+        </label>
+        <input type="tel" name="tel" id="tel" pattern="" required />
+        <label for="cmc">
+          <p>Your cmc</p>
+        </label>
+        <input type="text" name="cmc" id="cmc" pattern="" required />
+        <button type="submit">Contact us</button>
+        <label for="agree">
+          <input type="checkbox" id="agree" name="agree" />
+          I agree to the privacy policy
+        </label>
+      </form>
+      <img
+        srcset="./images/footer/dog.jpg 1x, ./images/footer/dog@2x.jpg 2x"
+        src="./images/footer/dog.jpg"
+        alt="Cute dog"
+      />
     </footer>
   </body>
 </html>
