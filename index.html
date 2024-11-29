@@ -9,25 +9,44 @@
   </head>
   <body>
     <header class="header">
-      <nav class="header__nav">
-        <!-- <a href="/"> -->
-        <img class="header__logo" src="./images/logo.svg" alt="Dog club logo" />
-        <!-- </a> -->
-        <ul class="header__menu">
-          <li><a href="#">Less talk</a></li>
-          <li><a href="#">Services category</a></li>
-          <li><a href="#">Happy customer</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-      <svg>
-        <use href="./images/icons.svg#icon-basket"></use>
-      </svg>
-      <button type="button">Contact us</button>
+      <div class="container">
+        <div class="header__container">
+          <nav class="header__nav">
+            <a href="/">
+              <img
+                class="header__logo"
+                src="./images/logo.svg"
+                alt="Dog club logo"
+              />
+            </a>
+            <ul class="header__menu">
+              <li><a class="link" href="#">Less talk</a></li>
+              <li><a class="link" href="#">Services category</a></li>
+              <li><a class="link" href="#">Happy customer</a></li>
+              <li><a class="link" href="#">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="header__basket">
+            <a href="#">
+              <svg class="header__basket-logo">
+                <use href="./images/icons.svg#icon-basket"></use>
+              </svg>
+            </a>
+            <button class="button header__button" type="button">
+              Contact us
+            </button>
+            <button class="header__burger" type="button">
+              <svg class="header__burger__logo" width="24" height="24">
+                <use href="./images/icons.svg#icon-menu"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
     </header>
     <main>
       <!--hero-section -->
-      <section class="hero-section">
+      <!-- <section class="hero-section">
         <h1>Taking care for your Smart Dog!</h1>
         <p>Human-canine bonding is the relationship between dogs and humans</p>
         <button type="button">Explore More</button>
@@ -39,9 +58,9 @@
           src="./images/hero-section/black-dog.jpg"
           alt="Black dog"
         />
-      </section>
+      </section> -->
       <!--adviсe-section -->
-      <section class="advice-section">
+      <!-- <section class="advice-section">
         <img
           srcset="
             ./images/advice-section/shetland-sheepdog.jpg    1x,
@@ -63,9 +82,9 @@
           they are in perfect shape, mentally and physically.
         </p>
         <button type="button">Explore more</button>
-      </section>
+      </section> -->
       <!--services-section -->
-      <section class="services-section">
+      <!-- <section class="services-section">
         <h2>Services category</h2>
         <ul>
           <li>
@@ -105,9 +124,9 @@
         <svg>
           <use href="./images/icons.svg#icon-more"></use>
         </svg>
-      </section>
+      </section> -->
       <!--customer-section -->
-      <section class="customer-section">
+      <!-- <section class="customer-section">
         <h2>Happy customer</h2>
         <button type="button">
           <svg>
@@ -216,9 +235,9 @@
           <span class="pagination__button"></span>
           <span class="pagination__button"></span>
         </div>
-      </section>
+      </section> -->
       <!--contact-section -->
-      <section class="contact-section">
+      <!-- <section class="contact-section">
         <h2>Our experts will take care of your friend</h2>
         <img
           srcset="
@@ -273,9 +292,9 @@
           src="./images/contact-section/dog-watching.jpg"
           alt="The dog is watching"
         />
-      </section>
+      </section> -->
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
       <nav>
         <a href="/">
           <img src="./images/logo.svg" alt="Dog club logo" />
@@ -322,6 +341,6 @@
         src="./images/footer/dog.jpg"
         alt="Cute dog"
       />
-    </footer>
+    </footer> -->
   </body>
 </html>

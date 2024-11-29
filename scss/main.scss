@@ -1,5 +1,7 @@
 @import './utils/fonts';
 @import './utils/variables';
 @import './base';
-
-@import "./layouts/header"
+@import './components/links';
+@import './components/buttons';
+@import './layouts/container';
+@import "./layouts/header";
