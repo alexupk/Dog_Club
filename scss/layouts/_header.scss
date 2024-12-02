@@ -4,10 +4,13 @@
         align-items: center;
         justify-content:space-between;
         padding-top: 32px;
+        margin-bottom: 33px;
+
 
         @media screen and (min-width: $bp-desktop) {
             gap: 115px;
             justify-content: initial;
+            margin-bottom: 212px;
         }
     }
 

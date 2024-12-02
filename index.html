@@ -46,19 +46,30 @@
     </header>
     <main>
       <!--hero-section -->
-      <!-- <section class="hero-section">
-        <h1>Taking care for your Smart Dog!</h1>
-        <p>Human-canine bonding is the relationship between dogs and humans</p>
-        <button type="button">Explore More</button>
-        <img
-          srcset="
-            ./images/hero-section/black-dog.jpg    1x,
-            ./images/hero-section/black-dog@2x.jpg 2x
-          "
-          src="./images/hero-section/black-dog.jpg"
-          alt="Black dog"
-        />
-      </section> -->
+      <section class="hero-section">
+        <div class="container">
+          <div class="hero-section__container">
+            <div class="hero-section__content">
+              <h1 class="hero-section__title">
+                Taking care for your Smart Dog!
+              </h1>
+              <p class="hero-section__text">
+                Human-canine bonding is the relationship between dogs and humans
+              </p>
+              <button class="button" type="button">Explore More</button>
+            </div>
+            <img
+              class="hero-section__image"
+              srcset="
+                ./images/hero-section/black-dog.jpg    1x,
+                ./images/hero-section/black-dog@2x.jpg 2x
+              "
+              src="./images/hero-section/black-dog.jpg"
+              alt="Black dog"
+            />
+          </div>
+        </div>
+      </section>
       <!--adviсe-section -->
       <!-- <section class="advice-section">
         <img
@@ -254,30 +265,30 @@
             <svg>
               <use href="./images/icons.svg#icon-form-name"></use>
             </svg>
-            <p>Your name</p>
+            <span>Your name</span>
           </label>
           <input type="text" name="name" id="name" pattern="" required />
           <label for="pet">
             <svg>
               <use href="./images/icons.svg#icon-form-pet"></use>
             </svg>
-            <p>Pet name</p>
+            <span>Pet name</span>
           </label>
           <input type="text" name="pet" id="pet" pattern="" required />
           <label for="tel">
             <svg>
               <use href="./images/icons.svg#icon-form-tel"></use>
             </svg>
-            <p>Your phone</p>
+            <span>Your phone</span>
           </label>
           <input type="tel" name="tel" id="tel" pattern="" required />
           <label for="email">
             <svg>
               <use href="./images/icons.svg#icon-form-email"></use>
             </svg>
-            <p>Your email</p>
+            <span>Your email</span>
           </label>
-          <input type="email" name="email" id="tel" pattern="" required />
+          <input type="email" name="email" id="email" pattern="" required />
           <button type="submit">Contact us</button>
           <label for="agree">
             <input type="checkbox" id="agree" name="agree" />
@@ -323,16 +334,16 @@
           <svg>
             <use href="./images/icons.svg#icon-form-tel"></use>
           </svg>
-          <p>Your phone</p>
+          <span>Your phone</span>
         </label>
-        <input type="tel" name="tel" id="tel" pattern="" required />
+        <input type="tel" name="tel" id="footer-tel" pattern="" required />
         <label for="cmc">
-          <p>Your cmc</p>
+          <span>Your cmc</span>
         </label>
         <input type="text" name="cmc" id="cmc" pattern="" required />
         <button type="submit">Contact us</button>
-        <label for="agree">
-          <input type="checkbox" id="agree" name="agree" />
+        <label for="footer-agree">
+          <input type="checkbox" id="footer-agree" name="agree" />
           I agree to the privacy policy
         </label>
       </form>

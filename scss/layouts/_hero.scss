@@ -1,0 +1,25 @@
+.hero-section{
+    &__container{
+        display: flex;
+        gap: 65px;
+    }
+
+    &__content{
+        max-width: 635px;
+    }
+
+    &__title{
+        margin-bottom: 40px;
+    }
+
+    &__text{
+        max-width: 480px;
+        margin-bottom: 24px;
+    }
+
+    &__image{
+        max-width: 506px;
+        max-height: 516px;
+    }
+}
+
