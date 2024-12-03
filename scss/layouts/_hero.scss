@@ -17,9 +17,64 @@
         margin-bottom: 24px;
     }
 
+    &__image-container{
+        position: relative;
+    }
+
     &__image{
         max-width: 506px;
         max-height: 516px;
+    }
+
+    &__decor-white-dog{
+        position: absolute;
+        left: -200px;
+        bottom: 234px;
+        transform: rotate(-30deg);
+    }
+
+    &__decor-yellow-track{
+        position: absolute;
+        fill: var(--color-secondary-orang);
+        left: -176px;
+        bottom: 92px;
+        transform: rotate(180deg);
+    }
+
+    &__decor-lilac-track {
+        position: absolute;
+        fill: var(--color-secondary-soft-lilac);
+        left: -76px;
+        bottom: 392px;
+        transform: rotate(-90deg);
+    }
+
+    &__decor-dachshund-dog{
+        position: absolute;
+        left: 20px;
+        bottom: 510px;
+        transform: rotate(-20deg);
+    }
+
+    &__decor-small-dog{
+        position: absolute;
+        bottom: 392px;
+        right: -60px;
+    }
+
+    &__decor-pink-track {
+        position: absolute;
+        fill: var(--color-secondary-pink);
+        bottom: 270px;
+        right: -90px;
+    }
+
+    &__decor-arrow {
+        width: 64px;
+        height: 48px;
+        position: absolute;
+        left: -300px;
+        bottom: 550px;
     }
 }
 

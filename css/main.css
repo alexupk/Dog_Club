@@ -32,6 +32,7 @@
   --color-secondary-grey: #839AA9;
   --color-secondary-lavender-white: #F9F9FF;
   --color-secondary-soft-lilac: #D9A6FF;
+  --color-secondary-pink: #FF6E9F;
 }
 
 *,
@@ -240,7 +241,68 @@ ul {
   max-width: 480px;
   margin-bottom: 24px;
 }
+.hero-section__image-container {
+  position: relative;
+}
 .hero-section__image {
   max-width: 506px;
   max-height: 516px;
+}
+.hero-section__decor-white-dog {
+  position: absolute;
+  left: -200px;
+  bottom: 234px;
+  transform: rotate(-30deg);
+}
+.hero-section__decor-yellow-track {
+  position: absolute;
+  fill: var(--color-secondary-orang);
+  left: -176px;
+  bottom: 92px;
+  transform: rotate(180deg);
+}
+.hero-section__decor-lilac-track {
+  position: absolute;
+  fill: var(--color-secondary-soft-lilac);
+  left: -76px;
+  bottom: 392px;
+  transform: rotate(-90deg);
+}
+.hero-section__decor-dachshund-dog {
+  position: absolute;
+  left: 20px;
+  bottom: 510px;
+  transform: rotate(-20deg);
+}
+.hero-section__decor-small-dog {
+  position: absolute;
+  bottom: 392px;
+  right: -60px;
+}
+.hero-section__decor-pink-track {
+  position: absolute;
+  fill: var(--color-secondary-pink);
+  bottom: 270px;
+  right: -90px;
+}
+.hero-section__decor-arrow {
+  width: 64px;
+  height: 48px;
+  position: absolute;
+  left: -300px;
+  bottom: 550px;
+}
+
+.decor {
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+}
+
+.decor_track {
+  width: 42px;
+  height: 42px;
+  border: none;
+  border-radius: 50%;
 }
