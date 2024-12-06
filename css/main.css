@@ -229,20 +229,43 @@ ul {
 
 .hero-section__container {
   display: flex;
-  gap: 65px;
+  justify-content: center;
+}
+@media screen and (min-width: 1200px) {
+  .hero-section__container {
+    gap: 65px;
+  }
 }
 .hero-section__content {
   max-width: 635px;
 }
 .hero-section__title {
-  margin-bottom: 40px;
+  text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .hero-section__title {
+    margin-bottom: 40px;
+    text-align: start;
+  }
 }
 .hero-section__text {
-  max-width: 480px;
-  margin-bottom: 24px;
+  text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .hero-section__text {
+    max-width: 480px;
+    margin-bottom: 24px;
+    text-align: start;
+  }
 }
 .hero-section__image-container {
-  position: relative;
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .hero-section__image-container {
+    display: block;
+    position: relative;
+  }
 }
 .hero-section__image {
   max-width: 506px;
@@ -286,14 +309,20 @@ ul {
   right: -90px;
 }
 .hero-section__decor-arrow {
-  width: 64px;
-  height: 48px;
-  position: absolute;
-  left: -300px;
-  bottom: 550px;
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .hero-section__decor-arrow {
+    width: 64px;
+    height: 48px;
+    position: absolute;
+    left: -300px;
+    bottom: 550px;
+  }
 }
 
 .decor {
+  display: block;
   width: 48px;
   height: 48px;
   border: none;
@@ -301,6 +330,7 @@ ul {
 }
 
 .decor_track {
+  display: block;
   width: 42px;
   height: 42px;
   border: none;
