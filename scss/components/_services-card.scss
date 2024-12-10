@@ -1,0 +1,15 @@
+.services-card{
+
+    padding: 47px 72px;
+    
+    &__decor{
+        max-width: 96px;
+        max-height: 96px;
+        
+    }
+    &__title {
+        font-size: 22px;
+        color: var(--color-primary-orange);
+        margin: 0;
+    }
+}

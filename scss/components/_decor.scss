@@ -1,15 +1,23 @@
 .decor {
     display: block;
-    width: 48px;
-    height: 48px;
     border: none;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
+    @media screen and (min-width: $bp-desktop) {
+        width: 48px;
+        height: 48px;
+    }
     
 }
 .decor_track {
     display: block;
-    width: 42px;
-    height: 42px;
+    width: 16px;
+    height: 16px;
     border: none;
     border-radius: 50%;
+    @media screen and (min-width: $bp-desktop) {
+        width: 42px;
+        height: 42px;
+    }
 }

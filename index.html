@@ -56,7 +56,38 @@
               <p class="hero-section__text">
                 Human-canine bonding is the relationship between dogs and humans
               </p>
-              <button class="button" type="button">Explore More</button>
+              <div class="hero-section__button">
+                <button class="button" type="button">Explore more</button>
+                <img
+                  class="decor hero-section__decor-white-dog"
+                  src="./images/hero-section/decor-white-dog.png"
+                  alt="decor white dog"
+                />
+                <svg class="decor_track hero-section__decor-yellow-track">
+                  <use href="./images/icons.svg#icon-track"></use>
+                </svg>
+                <svg class="decor_track hero-section__decor-lilac-track">
+                  <use href="./images/icons.svg#icon-track"></use>
+                </svg>
+                <img
+                  class="decor hero-section__decor-dachshund-dog"
+                  src="./images/hero-section/decor-dachshund-dog.png"
+                  alt="decor dachshund dog"
+                />
+                <img
+                  class="decor hero-section__decor-small-dog"
+                  src="./images/hero-section/decor-small-dog.png"
+                  alt="decor small dog"
+                />
+                <svg class="decor_track hero-section__decor-pink-track">
+                  <use href="./images/icons.svg#icon-track"></use>
+                </svg>
+                <img
+                  class="hero-section__decor-arrow"
+                  src="./images/hero-section/decor-arrow.png"
+                  alt="decor arrow"
+                />
+              </div>
             </div>
             <div class="hero-section__image-container">
               <img
@@ -68,110 +99,131 @@
                 src="./images/hero-section/black-dog.jpg"
                 alt="Black dog"
               />
-              <img
-                class="decor hero-section__decor-white-dog"
-                src="./images/hero-section/decor-white-dog.png"
-                alt="decor white dog"
-              />
-              <svg class="decor_track hero-section__decor-yellow-track">
-                <use href="./images/icons.svg#icon-track"></use>
-              </svg>
-              <svg class="decor_track hero-section__decor-lilac-track">
-                <use href="./images/icons.svg#icon-track"></use>
-              </svg>
-              <img
-                class="decor hero-section__decor-dachshund-dog"
-                src="./images/hero-section/decor-dachshund-dog.png"
-                alt="decor white dog"
-              />
-              <img
-                class="decor hero-section__decor-small-dog"
-                src="./images/hero-section/decor-small-dog.png"
-                alt="decor small dog"
-              />
-              <img
-                class="decor hero-section__decor-dachshund-dog"
-                src="./images/hero-section/decor-dachshund-dog.png"
-                alt="decor dachshund dog"
-              />
-              <svg class="decor_track hero-section__decor-pink-track">
-                <use href="./images/icons.svg#icon-track"></use>
-              </svg>
-              <img
-                class="hero-section__decor-arrow"
-                src="./images/hero-section/decor-arrow.png"
-                alt="decor arrow"
-              />
             </div>
           </div>
         </div>
       </section>
       <!--adviсe-section -->
-      <!-- <section class="advice-section">
-        <img
-          srcset="
-            ./images/advice-section/shetland-sheepdog.jpg    1x,
-            ./images/advice-section/shetland-sheepdog@2x.jpg 2x
-          "
-          src="./images/advice-section/shetland-sheepdog.jpg"
-          alt="Shetland sheepdog"
-        />
-        <button type="button">
-          <svg>
-            <use href="./images/icons.svg#icon-next"></use>
-          </svg>
-        </button>
-        <h2>Less talk and more walk</h2>
-        <p>
-          Sometimes our career, lifestyle, or routines can make it difficult to
-          provide your pet with the recommended amount of exercise that they
-          need. Which is why, it’s okay to use an extra hand in walking dogs so
-          they are in perfect shape, mentally and physically.
-        </p>
-        <button type="button">Explore more</button>
-      </section> -->
+      <section class="advice-section">
+        <div class="container">
+          <div class="advice-section__container">
+            <div class="advice-section__image-container">
+              <img
+                class="advice-section__image"
+                srcset="
+                  ./images/advice-section/shetland-sheepdog.jpg    1x,
+                  ./images/advice-section/shetland-sheepdog@2x.jpg 2x
+                "
+                src="./images/advice-section/shetland-sheepdog.jpg"
+                alt="Shetland sheepdog"
+              />
+              <svg class="decor_track advice-section__decor-grey-track-left">
+                <use href="./images/icons.svg#icon-track"></use>
+              </svg>
+              <svg class="decor_track advice-section__decor-grey-track-top">
+                <use href="./images/icons.svg#icon-track"></use>
+              </svg>
+              <svg class="decor_track advice-section__decor-grey-track-right">
+                <use href="./images/icons.svg#icon-track"></use>
+              </svg>
+              <div class="advice-section__video-button-block">
+                <img
+                  class="advice-section__video-bgc"
+                  src="./images/advice-section/vide-bgc.png"
+                  alt="Video background"
+                />
+                <button class="video-button" type="button">
+                  <svg class="video-button__decor">
+                    <use href="./images/icons.svg#icon-next"></use>
+                  </svg>
+                </button>
+                <p class="video-button__text">Learn more</p>
+              </div>
+            </div>
+            <div class="advice__content">
+              <h2 class="advice__title">
+                Less talk <br />
+                and more walk
+              </h2>
+              <p class="advice__text">
+                Sometimes our career, lifestyle, or routines can make it
+                difficult to provide your pet with the recommended amount of
+                exercise that they need. Which is why, it’s okay to use an extra
+                hand in walking dogs so they are in perfect shape, mentally and
+                physically.
+              </p>
+              <div class="advice-mobile">
+                <button class="button advice__button" type="button">
+                  Explore more
+                </button>
+                <div class="advice-section__video-button-block-mobile">
+                  <img
+                    class="advice-section__video-bgc"
+                    src="./images/advice-section/vide-bgc-mobile.png"
+                    alt="Video background"
+                  />
+                  <button class="video-button" type="button">
+                    <svg class="video-button__decor">
+                      <use href="./images/icons.svg#icon-next"></use>
+                    </svg>
+                  </button>
+                  <p class="video-button__text">Learn more</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!--services-section -->
-      <!-- <section class="services-section">
-        <h2>Services category</h2>
-        <ul>
-          <li>
-            <article>
-              <svg>
-                <use href="./images/icons.svg#icon-grooming"></use>
-              </svg>
-              <h3>Grooming</h3>
-            </article>
-          </li>
-          <li>
-            <article>
-              <svg>
-                <use href="./images/icons.svg#icon-nutrition"></use>
-              </svg>
-              <h3>Nutrition</h3>
-            </article>
-          </li>
-          <li>
-            <article>
-              <svg>
-                <use href="./images/icons.svg#icon-training"></use>
-              </svg>
-              <h3>Training</h3>
-            </article>
-          </li>
-          <li>
-            <article>
-              <svg>
-                <use href="./images/icons.svg#icon-bathing"></use>
-              </svg>
-              <h3>Bathing</h3>
-            </article>
-          </li>
-        </ul>
-        <a href="#">more services</a>
-        <svg>
-          <use href="./images/icons.svg#icon-more"></use>
-        </svg>
-      </section> -->
+      <section class="services-section">
+        <div class="container">
+          <div class="services-section__container">
+            <h2 class="services-section__title">Services category</h2>
+            <ul class="services-section__list">
+              <li>
+                <article class="services-card">
+                  <svg class="services-card__decor">
+                    <use href="./images/icons.svg#icon-grooming"></use>
+                  </svg>
+                  <h3 class="services-card__title">Grooming</h3>
+                </article>
+              </li>
+              <li>
+                <article class="services-card">
+                  <svg class="services-card__decor">
+                    <use href="./images/icons.svg#icon-nutrition"></use>
+                  </svg>
+                  <h3 class="services-card__title">Nutrition</h3>
+                </article>
+              </li>
+              <li>
+                <article class="services-card">
+                  <svg class="services-card__decor">
+                    <use href="./images/icons.svg#icon-training"></use>
+                  </svg>
+                  <h3 class="services-card__title">Training</h3>
+                </article>
+              </li>
+              <li>
+                <article class="services-card">
+                  <svg class="services-card__decor">
+                    <use href="./images/icons.svg#icon-bathing"></use>
+                  </svg>
+                  <h3 class="services-card__title">Bathing</h3>
+                </article>
+              </li>
+              <li>
+                <article class="services-card">
+                  <a href="#">more services</a>
+                  <svg>
+                    <use href="./images/icons.svg#icon-more"></use>
+                  </svg>
+                </article>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
       <!--customer-section -->
       <!-- <section class="customer-section">
         <h2>Happy customer</h2>

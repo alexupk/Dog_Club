@@ -1,0 +1,12 @@
+.services-section{
+    &__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__list{
+        display: flex;
+        gap:40px;
+    }
+    
+}
