@@ -12,4 +12,23 @@
         color: var(--color-primary-orange);
         margin: 0;
     }
+    &__more-link{
+        display: flex;
+        align-items: flex-end;
+       
+    }
+    &__link{
+        font-size: 18px;
+        color: var(--color-primary-orange);
+    }
+    &__link:hover{
+        color: var(--color-secondary-orang);
+    }
+    
+}   
+
+.more-link-icon{
+    height:10px;
+    width:40px;
+    fill: var(--color-primary-orange);
 }

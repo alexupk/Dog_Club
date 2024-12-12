@@ -1,0 +1,22 @@
+.indicator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    &__icon{
+        width: 32px;
+        height: 14px;
+        &--orange{
+            fill: var(--color-primary-orange);
+        }
+        &--normal{
+            fill: var(--color-secondary-normal);
+        }
+    }
+    &__text{
+        margin: 0 0 0 38px;
+        font-size: 16px;
+        font-weight: 300;
+        color: var(--color-primary-orange);
+    }
+}

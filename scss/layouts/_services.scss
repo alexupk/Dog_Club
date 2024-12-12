@@ -3,10 +3,22 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        position: relative;
+    }
+    &__decor-arrow{
+        position: absolute;
+        top: -150px;
+        right: 0;
+        width: auto;
+        height: 160px;
+    }
+    &__cards{
+        display: flex;
     }
     &__list{
         display: flex;
         gap:40px;
+        flex-wrap: wrap;
     }
     
 }
